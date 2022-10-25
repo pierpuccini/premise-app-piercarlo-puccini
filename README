@@ -1,0 +1,23 @@
+A bare-bones app with no styling that contains a FE & BE.
+The BE can extract information from the metmuseum where we first get a list of object id's per our query and then we fetch each object.
+The FE Connects to our BE and consumes a search GET endpoint in order to get a list of objects containing information
+such as artist, medium, department, location, and a redirect to the museums wiki
+
+Frontend:
+
+In order to start up
+
+1. npm i
+2. cd frontend
+3. npm start
+4. confirm it opens up in localhost:3000
+
+Backend:
+
+In order to start up
+
+1. npm i
+2. cd backend
+3. node app.js
+
+I apologize for it being ugly as I'm not a designer and usually get provided designs. I can handle UX but not design

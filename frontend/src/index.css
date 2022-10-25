@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "Austin";
+  src: local("Austin"),
+    url("./fonts/Austin/Austin-Roman-Web.woff2") format("woff2");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Austin";
+  src: local("Austin"),
+    url("./fonts/Austin/Austin-Bold-Web.woff2") format("woff2");
+  font-weight: bold;
+}
+
+html,
+body,
+div#root {
+  margin: 0;
+  height: 100%;
+  font-family: Roboto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
